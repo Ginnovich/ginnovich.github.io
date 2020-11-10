@@ -1,0 +1,175 @@
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+::selection {
+    background-color: #CCE2FF;
+    color: rgba(0,0,0,.87);
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    min-width: 320px;
+    background: #FFF;
+    font-family: 'Open Sans','Helvetica Neue',Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.4285em;
+    color: rgba(0,0,0,.87);
+    background-color: #f6eafb;
+}
+
+body>div:first-child{
+    height: 100%;
+    margin-top: -75px;
+}
+
+.ui.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ui.grid>.column:only-child {
+    width: 100%;
+}
+
+.ui.grid>.column:not(.row) {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.column>div:first-child {
+    top: 75px;
+    z-index: 1;
+}
+
+.ui.small.image {
+    width: 150px;
+}
+
+.ui.centered.image {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ui.fluid.image {
+    display: block;
+}
+
+.ui.circular.image>*{
+    border-radius: 500rem;
+}
+
+.ui.image {
+    position: relative;
+}
+
+.ui.image img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.ui.fluid.card {
+    width: 100%;
+}
+
+.ui.centered.card {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ui.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ui.card [class*="center aligned"] {
+    text-align: center;
+}
+
+.ui.card>.content {
+    border-top: 1px solid rgba(34,36,38,.1);
+    padding: 1em;
+}
+
+.ui.card>:first-child {
+    border-top: none!important;
+}
+
+.ui.card>.content>.header:not(.ui) {
+    font-weight: 700;
+    font-size: 1.28571429em;
+    margin-top: -.21425em;
+    line-height: 1.2857em;
+}
+
+.ui.card>.content>.header {
+    display: block;
+}
+
+.ui.card .meta {
+    color: rgba(0,0,0,.4);
+}
+
+.ui.card .meta :last-child {
+    margin-right: 0;
+}
+
+.ui.card>.content>.meta+.description {
+    margin-top: .5em;
+}
+
+.ui.card [class*="left aligned"] {
+/*    text-align: left; */
+    text-align: center;
+}
+
+.ui.card>.extra {
+    border-top: 1px solid rgba(0,0,0,.05)!important;
+    position: static;
+    background: 0 0;
+    width: auto;
+    padding: .75em 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+i.big.icon {
+    line-height: 1;
+    font-size: 2em;
+}
+
+i.icon {
+    display: inline-block;
+    margin: 0 .25rem 0 0;
+    width: 1.18em;
+    vertical-align: middle;
+}
+
+.icon-color {
+    color: #5a5a5a;
+}
+
+.ui.basic.button {
+    background: 0 0!important;
+    font-weight: 400;
+    box-shadow: 0 0 0 1px rgba(34,36,38,.15) inset;
+}
+
+.ui.button {
+    border: none;
+    color: rgba(0,0,0,.6);
+    margin: 0 .25em 0 0;
+    padding: .78571429em 1.5em;
+    line-height: 1em;
+    border-radius: .28571429rem;
+}
