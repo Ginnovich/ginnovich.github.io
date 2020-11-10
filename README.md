@@ -1,1 +1,1 @@
-https://ginnovich.github.io/project04resume/
+https://ginnovich.github.io/
