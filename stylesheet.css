@@ -72,6 +72,12 @@ body>div:first-child{
     height: auto;
 }
 
+.column>div:last-child {
+    max-width: 500px;
+    padding-top: 75px;
+    margin-top: 0px;
+}
+
 .ui.fluid.card {
     width: 100%;
 }
